@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: indigo;
+}
+main {
+  padding: 50px 0;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+h1 {
+  /* color: indigo; */
+  font-size: 2rem;
+}
+
+#myform {
+  margin: 20px 50px;
+}
+
+label, input{
+  display: block;
+  
+}
+
+select {
+  display: block;
+}
+
+#submit-btn {
+  border: 1px solid purple;
+  background-color: lightpink;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.err-msg {
+  color: red;
+  font-style: italic;
+}
